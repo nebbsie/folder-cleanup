@@ -18,3 +18,12 @@ This will do the same as above but to every file.
 
 This will search through the dir folder and look for all films in folders, they will be placed in the base folder of the directory tree. This is usefull when you have your movies in a folder, but as you add more you keep adding them into the movies folder as folder. This is a way of of automating the process of going into each folder and moving them. To the correct folder location(base of the directory tree). Using the film parameter will also mean it will check if the film is above a certain size. If no size are set with parameters it will use a default size of 400MB. To set a new size after films you need to add a paramenter of size after the films parameter this is in MB.
 
+
+# Installation
+_Currently not on pip._  
+Download the repo from github and run from command line making sure in the correct directory.
+
+# Usage
+-`python immaculate.py all <dir>` All Files    
+-`python immaculate.py films <dir>` Films (default size)  
+-`python immaculate.py films 100 <dir>` Films (over parameter size)  
