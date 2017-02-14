@@ -28,5 +28,5 @@ Download the repo from github and run from command line making sure in the corre
 -`python immaculate.py films <dir>` Films (default size)  
 -`python immaculate.py films 100 <dir>` Films (over parameter size)  
 
-
-https://raw.githubusercontent.com/nebbsie/immaculate/master/logo.png
+# Example of use
+![alt tag](https://github.com/nebbsie/immaculate/blob/master/usage.PNG)
