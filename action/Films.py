@@ -56,6 +56,6 @@ class Films:
                             movedFiles += 1
 
         if movedFiles > 0:
-            print("Moved " + str(movedFiles) + " files." + "Size Of: " + Utils.convert_bytes(movedFilesSize))
+            return "Moved " + str(movedFiles) + " file/s. " + "Size Of: " + Utils.convert_bytes(movedFilesSize)
         else:
-            print("Found no files in the subdirectories of " + self.directory)
+            return "Found no files in the subdirectories of " + self.directory
